@@ -9,7 +9,7 @@ defmodule DumpRomHex do
   end
 
   defp execute([]) do
-    IO.puts("Usage: <cmd> path_to_rom.gb")
+    IO.puts("Usage: dump_rom_to_hex.sh path_to_rom.gb")
   end
 
   defp execute([path]) do
