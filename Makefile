@@ -5,3 +5,6 @@ build-docker:
 
 test: build-docker
 	docker-compose run --rm gb env MIX_ENV=test mix test.watch
+
+shell: build-docker
+	docker-compose run --rm gb ash
