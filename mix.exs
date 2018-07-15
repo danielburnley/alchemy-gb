@@ -22,7 +22,7 @@ defmodule AlchemyGb.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:mix_test_watch, "~> 0.6", only: :dev, runtime: false},
+      {:mix_test_watch, "~> 0.6", only: :test, runtime: false},
       {:espec, "~> 1.5.0", only: :test}
     ]
   end
