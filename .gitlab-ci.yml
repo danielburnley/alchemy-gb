@@ -1,0 +1,12 @@
+image: elixir:1.6.6-alpine
+
+before_script:
+  - mix local.rebar --force
+  - mix local.hex --force
+  - mix deps.get
+
+mix:
+  script:
+    - mix espec
+  variables:
+    MIX_ENV: test
