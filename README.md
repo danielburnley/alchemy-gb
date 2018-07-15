@@ -2,20 +2,14 @@
 
 A Gameboy emulator written in Elixir
 
-## Installation
+## Features
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `alchemy_gb` to your list of dependencies in `mix.exs`:
+Literally nothing right now
 
-```elixir
-def deps do
-  [
-    {:alchemy_gb, "~> 0.1.0"}
-  ]
-end
+## Utilities
+
+You can dump a ROM into hex with memory locations if you'd like
+
+```bash
+./bin/dump_rom_hex.sh <path_to_rom>
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/alchemy_gb](https://hexdocs.pm/alchemy_gb).
-
