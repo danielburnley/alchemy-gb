@@ -1,0 +1,2 @@
+defmodule CPU do
+end
